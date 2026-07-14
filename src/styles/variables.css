@@ -1,0 +1,27 @@
+:root {
+
+  /* Colors */
+
+  --color-primary: #0066B3;
+  --color-secondary: #17A7E0;
+
+  --color-text: #1A1A1A;
+  --color-text-light: #666666;
+
+  --color-background: #FFFFFF;
+
+  /* Layout */
+
+  --container-width: 1280px;
+
+  --section-padding: 120px;
+
+  /* Radius */
+
+  --radius-lg: 24px;
+
+  /* Transition */
+
+  --transition: 300ms ease;
+
+}
