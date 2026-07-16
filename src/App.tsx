@@ -1,9 +1,7 @@
 import Hero from "./sections/Hero/Hero";
 
-export default function App() {
-    return (
-        <>
-            <Hero />
-        </>
-    );
+function App() {
+    return <Hero />;
 }
+
+export default App;

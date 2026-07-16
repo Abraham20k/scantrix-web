@@ -1,0 +1,48 @@
+first replaced HeroContent
+
+import Container from "../../../components/common/Container/Container";
+import { heroData } from "../data";
+
+import techsuiteLogo from "../../../assets/logos/techsuite-logo.svg";
+import techsuiteText from "../../../assets/logos/techsuite.svg";
+import scantrixLogo from "../../../assets/logos/scantrix-logo.svg";
+
+export default function HeroContent() {
+    return (
+        <Container>
+            <div className="hero__content">
+
+                <div className="hero__brand">
+
+                    <img
+                        src={techsuiteLogo}
+                        alt="Techsuite Logo"
+                        className="hero__brand-logo"
+                    />
+
+                    <img
+                        src={techsuiteText}
+                        alt="Techsuite"
+                        className="hero__brand-text"
+                    />
+
+                </div>
+
+                <p className="hero__eyebrow">
+                    {heroData.eyebrow}
+                </p>
+
+                <img
+                    src={scantrixLogo}
+                    alt="Scantrix"
+                    className="hero__scantrix-logo"
+                />
+
+                <p className="hero__subtitle">
+                    {heroData.subtitle}
+                </p>
+
+            </div>
+        </Container>
+    );
+}
